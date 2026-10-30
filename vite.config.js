@@ -1,9 +1,9 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
-
+// https://vite.dev
 export default defineConfig({
-  base: "/Marzia-Sadeqi-Portfolio/",
   plugins: [react(), tailwindcss()],
-});
+  base: "/Marzia-Sadeqi-Portfolio/", // 👈 UPDATED TO MATCH YOUR EXACT REPO NAME
+})
