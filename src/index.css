@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/*
+ * Portfolio palette — ONLY these five colors:
+ * navy #0F1F2B, teal #1F4D5A, muted teal #5EA3A3, mint #D9F1EF, soft white #F4FBFA
+ */
+
+@theme inline {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--teal);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --color-teal: var(--teal);
+  --color-mint: var(--mint);
+  --color-soft: var(--soft);
+}
+
+:root {
+  --navy: #0f1f2b;
+  --teal: #1f4d5a;
+  --accent-teal: #5ea3a3;
+  --mint: #d9f1ef;
+  --soft: #f4fbfa;
+
+  --background: var(--soft);
+  --foreground: var(--navy);
+  --primary: var(--teal);
+  --primary-foreground: var(--soft);
+  --muted-foreground: var(--teal);
+  --accent: var(--accent-teal);
+  --border: color-mix(in oklab, var(--accent-teal) 30%, transparent);
+  --input: color-mix(in oklab, var(--accent-teal) 45%, transparent);
+  --ring: var(--accent-teal);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--mint);
+    color: var(--navy);
+  }
+}
+
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 72rem;
+  padding-inline: clamp(1rem, 5vw, 1.5rem);
+}
+
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
