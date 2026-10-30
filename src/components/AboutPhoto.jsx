@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ease } from "../lib/motion";
 
 /** Put your photo at public/marzia.jpg — it appears here automatically. */
-const PHOTO_SRC = "/marzia.jpg";
+const PHOTO_SRC = "./marzia.jpg"; // 👈 FIXED: Added the relative dot
 
 export default function AboutPhoto() {
   const [failed, setFailed] = useState(false);

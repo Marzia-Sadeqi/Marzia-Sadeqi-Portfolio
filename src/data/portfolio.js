@@ -20,52 +20,52 @@ export const skills = [
 export const projects = [
   {
     title: "Findit Real Estate",
-    image: "/images/projects/project-1.png",
+    image: "./images/projects/project-1.png",
     description: "A real-estate website built to practice layout, HTML, CSS and responsive design.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://ur-dream-house.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Netlinks Pricing",
-    image: "/images/projects/project-2.png",
+    image: "./images/projects/project-2.png",
     description: "A pricing page with clean cards, good spacing and responsive behavior.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://netlinks-pricing.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Mentor Cards",
-    image: "/images/projects/project-3.jpg",
+    image: "./images/projects/project-3.jpg",
     description: "A mentor-discovery interface with clean cards that are easy to explore.",
     tech: ["HTML", "CSS", "Responsive"],
-    link: "https://mentors-card.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Contact Form",
-    image: "/images/projects/project-4.jpg",
+    image: "./images/projects/project-4.jpg",
     description: "A simple, readable contact form with clear hierarchy.",
     tech: ["HTML", "CSS", "Responsive"],
-    link: "https://untitled-form.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Course Cards",
-    image: "/images/projects/project-5.jpg",
+    image: "./images/projects/project-5.jpg",
     description: "Responsive course cards with consistent spacing and readable text.",
     tech: ["HTML", "CSS", "Responsive"],
-    link: "https://courses-cards.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Beauty Website",
-    image: "/images/projects/project-6.jpg",
+    image: "./images/projects/project-6.jpg",
     description: "An online beauty shop with reusable components and a clean look.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://beauty-online.netlify.app/",
+    link: "https://netlify.app",
   },
   {
     title: "Portfolio Website",
-    image: "/images/projects/portfolio-website.jpg",
+    image: "./images/projects/portfolio-website.jpg",
     description: "A responsive portfolio website with a clean, friendly design.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "https://fatima-porfolio.netlify.app/",
+    link: "https://netlify.app",
   },
 ];
 
@@ -82,21 +82,21 @@ export const education = [
 ];
 
 export const certificates = [
-  { title: "Web Development Workshop", issuer: "EmpowerHer", date: "Oct 2026", image: "/images/certificates/empowerher-web-development.jpg" },
-  { title: "Volunteer Mentor Certificate", issuer: "Center of Business Administration", date: "Mar – May 2025", image: "/images/certificates/cba-volunteer-mentor.jpg" },
-  { title: "Course Supervisor Letter", issuer: "Center of Business Administration", date: "Dec 2024 – Feb 2025", image: "/images/certificates/cba-supervisor-letter.jpg" },
-  { title: "BookClub Course", issuer: "Creative Thinkers", date: "Jan – Mar 2025", image: "/images/certificates/bookclub.jpg" },
-  { title: "Responsible AI Webinar", issuer: "Youth Digital Literacy", date: "2025", image: "/images/certificates/responsible-ai-webinar.jpg" },
-  { title: "English Grammar Completion", issuer: "Center of Business Administration", date: "Sep 2024", image: "/images/certificates/cba-english-completion.jpg" },
-  { title: "Duolingo English Preparation", issuer: "Afghan Youth Edureach", date: "Aug 2024", image: "/images/certificates/duolingo-prep.jpg" },
-  { title: "Mawoud Academy Diploma", issuer: "Mawoud Academy", date: "Aug 2024", image: "/images/certificates/mawoud-academy.jpg" },
-  { title: "Kangaroo Math — Provincial Selection", issuer: "Kangourou sans Frontières", date: "Apr 2024", image: "/images/certificates/kangaroo-math-2024.jpg" },
+  { title: "Web Development Workshop", issuer: "EmpowerHer", date: "Oct 2026", image: "./images/certificates/empowerher-web-development.jpg" },
+  { title: "Volunteer Mentor Certificate", issuer: "Center of Business Administration", date: "Mar – May 2025", image: "./images/certificates/cba-volunteer-mentor.jpg" },
+  { title: "Course Supervisor Letter", issuer: "Center of Business Administration", date: "Dec 2024 – Feb 2025", image: "./images/certificates/cba-supervisor-letter.jpg" },
+  { title: "BookClub Course", issuer: "Creative Thinkers", date: "Jan – Mar 2025", image: "./images/certificates/bookclub.jpg" },
+  { title: "Responsible AI Webinar", issuer: "Youth Digital Literacy", date: "2025", image: "./images/certificates/responsible-ai-webinar.jpg" },
+  { title: "English Grammar Completion", issuer: "Center of Business Administration", date: "Sep 2024", image: "./images/certificates/cba-english-completion.jpg" },
+  { title: "Duolingo English Preparation", issuer: "Afghan Youth Edureach", date: "Aug 2024", image: "./images/certificates/duolingo-prep.jpg" },
+  { title: "Mawoud Academy Diploma", issuer: "Mawoud Academy", date: "Aug 2024", image: "./images/certificates/mawoud-academy.jpg" },
+  { title: "Kangaroo Math — Provincial Selection", issuer: "Kangourou sans Frontières", date: "Apr 2024", image: "./images/certificates/kangaroo-math-2024.jpg" },
 ];
 
 export const contact = {
   email: "marziasadeqi332@gmail.com",
-  linkedin: "https://www.linkedin.com/in/marzia-sadeqi-47a23631a",
-  github: "https://github.com/Marzia-Sadeqi",
+  linkedin: "https://linkedin.com",
+  github: "https://github.com",
 };
 
 // Options shown in the "What do you need?" dropdown of the contact form.
@@ -110,4 +110,4 @@ export const services = [
 ];
 
 // Where the contact form sends messages (Formspree).
-export const FORM_ENDPOINT = "https://formspree.io/f/xrpeayrp";
+export const FORM_ENDPOINT = "https://formspree.io";
